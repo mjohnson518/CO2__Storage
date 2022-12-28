@@ -93,7 +93,7 @@ const Articles = ({
     return (
       <button
         type="button"
-        className="rounded bg-black py-1 px-2 text-sm text-white no-underline dark:bg-white dark:text-black"
+        className="rounded bg-black py-2 text-sm text-black no-underline dark:bg-black dark:text-white"
         onClick={() => setShowAll(true)}
       >
         Show all articles
@@ -103,7 +103,9 @@ const Articles = ({
 
   return (
     <div className="space-y-4">
-      <h2 className="text-md font-semibold">Articles</h2>
+      <h2 className="text-md font-semibold text-black dark:text-white">
+        Articles
+      </h2>
       <div className="space-y-8">
         {articlesListNode()}
         {showAllArticlesButtonNode()}

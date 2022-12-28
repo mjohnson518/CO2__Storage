@@ -82,7 +82,7 @@ const Projects = ({ projects }: IProps) => {
     return (
       <button
         type="button"
-        className="rounded bg-black py-1 px-2 text-sm text-white no-underline dark:bg-white dark:text-black"
+        className="rounded bg-black py-2 text-sm text-black no-underline dark:bg-black dark:text-white"
         onClick={() => setShowAll(true)}
       >
         Show all projects
@@ -92,7 +92,9 @@ const Projects = ({ projects }: IProps) => {
 
   return (
     <div className="space-y-4">
-      <h2 className="text-md font-semibold">Projects</h2>
+      <h2 className="text-md font-semibold text-black dark:text-white">
+        Projects
+      </h2>
       <div className="space-y-8">
         {projectsListNode()}
         {showAllProjectsButtonNode()}
