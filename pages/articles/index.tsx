@@ -15,7 +15,7 @@ const ArticlesIndexPage: NextPage<IProps> = ({ articles }) => {
       <NextSeo
         title={siteConfig.details.title}
         description={siteConfig.details.description}
-        canonical={siteConfig.details.url}
+        canonical={`${siteConfig.details.url}/articles`}
         openGraph={{
           url: siteConfig.details.url,
           title: siteConfig.details.title,

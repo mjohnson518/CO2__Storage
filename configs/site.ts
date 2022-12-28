@@ -7,8 +7,8 @@ const siteConfig = {
     url: "https://nirmalyaghosh.com",
   },
   assets: {
-    avatar: "/images/common/seo-cover.png",
-    favicon: "/images/common/favicon.svg",
+    avatar: "https://nirmalyaghosh.com/images/common/seo-cover.png",
+    favicon: "https://nirmalyaghosh.com/images/common/favicon.svg",
   },
   socialLinks: {
     twitter: "@NirmalyaGhosh_",
