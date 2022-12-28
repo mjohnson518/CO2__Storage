@@ -16,7 +16,7 @@ function generateSiteMap(articles: IArticle[]) {
          return `
        <url>
            <loc>${`${siteConfig.details.url}/articles/${article.slug}`}</loc>
-           <lastmod>${article.publishedDate}</lastmod>
+           <lastmod>${article.raw.publishedDate}</lastmod>
        </url>
      `;
        })

@@ -27,6 +27,12 @@ const fetchAllArticles = async () => {
       slug: `${slugify(result.properties["Name"].title[0].plain_text, {
         lower: true,
       })}--${result.id}`,
+      raw: {
+        publishedDate:
+          dayjs(
+            result.properties["Published date"].date?.start
+          ).toISOString() || new Date().toISOString(),
+      },
     };
   }) as IArticle[];
 
