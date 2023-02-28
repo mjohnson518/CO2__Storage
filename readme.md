@@ -1,21 +1,3 @@
-<p align="center">
-  <img
-    src="https://user-images.githubusercontent.com/6391763/91746343-12db9600-ebda-11ea-852f-c53409d470ca.png"
-    alt="Logo"
-  />
-</p>
-
-<p align="center">
-  <a href="https://twitter.com/NirmalyaGhosh_">
-    <img
-      alt="Twitter: Nirmalya Ghosh"
-      src="https://img.shields.io/twitter/follow/NirmalyaGhosh_.svg?style=social"
-      target="_blank"
-    />
-  </a>
-</p>
-
-This is a boilerplate for building portfolio applications using Next.js.
 
 ## Overview
 
